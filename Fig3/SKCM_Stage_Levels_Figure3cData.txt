@@ -1,0 +1,416 @@
+SampleID	Cancer	EXTEND	TumorTissueSite	SampleType
+TCGA-3N-A9WB	SKCM	0.609662638650021	distant metastasis	metastatic
+TCGA-3N-A9WC	SKCM	0.447539028792625	regional lymph node	metastatic
+TCGA-3N-A9WD	SKCM	0.355622238715416	regional lymph node	metastatic
+TCGA-BF-A1PU	SKCM	0.476383769680872	primary tumor	primary tumor
+TCGA-BF-A1PV	SKCM	0.677116054729178	primary tumor	primary tumor
+TCGA-BF-A1PX	SKCM	0.41124292090426	primary tumor	primary tumor
+TCGA-BF-A1PZ	SKCM	0.506745776374677	primary tumor	primary tumor
+TCGA-BF-A1Q0	SKCM	0.537798991142417	primary tumor	primary tumor
+TCGA-BF-A3DJ	SKCM	0.400139750444717	primary tumor	primary tumor
+TCGA-BF-A3DL	SKCM	0.419556462485438	primary tumor	primary tumor
+TCGA-BF-A3DM	SKCM	0.488214070235238	primary tumor	primary tumor
+TCGA-BF-A3DN	SKCM	0.399964087033334	primary tumor	primary tumor
+TCGA-BF-A5EO	SKCM	0.355727729891889	primary tumor	primary tumor
+TCGA-BF-A5EP	SKCM	0.542326658920751	primary tumor	primary tumor
+TCGA-BF-A5EQ	SKCM	0.538758201663862	primary tumor	primary tumor
+TCGA-BF-A5ER	SKCM	0.514624647355811	primary tumor	primary tumor
+TCGA-BF-A5ES	SKCM	0.430112902778218	primary tumor	primary tumor
+TCGA-BF-A9VF	SKCM	0.472455054207331	primary tumor	primary tumor
+TCGA-BF-AAOU	SKCM	0.473706531820298	primary tumor	primary tumor
+TCGA-BF-AAOX	SKCM	0.549193409279296	primary tumor	primary tumor
+TCGA-BF-AAP0	SKCM	0.433140271003994	regional lymph node	metastatic
+TCGA-BF-AAP1	SKCM	0.536460935274758	primary tumor	primary tumor
+TCGA-BF-AAP2	SKCM	0.521525689966055	primary tumor	primary tumor
+TCGA-BF-AAP4	SKCM	0.505050792969485	primary tumor	primary tumor
+TCGA-BF-AAP6	SKCM	0.549291984446141	primary tumor	primary tumor
+TCGA-BF-AAP7	SKCM	0.389627743189739	primary tumor	primary tumor
+TCGA-BF-AAP8	SKCM	0.379386565417334	primary tumor	primary tumor
+TCGA-D3-A1Q1	SKCM	0.569008943465103	regional lymph node	metastatic
+TCGA-D3-A1Q3	SKCM	0.56580150595391	regional lymph node	metastatic
+TCGA-D3-A1Q4	SKCM	0.437371464687403	regional lymph node	metastatic
+TCGA-D3-A1Q6	SKCM	0.363138321942308	RegionalCut_SubCut	metastatic
+TCGA-D3-A1Q7	SKCM	0.472252101054586	regional lymph node	metastatic
+TCGA-D3-A1Q8	SKCM	0.426676535242457	regional lymph node	metastatic
+TCGA-D3-A1Q9	SKCM	0.568474193233723	regional lymph node	metastatic
+TCGA-D3-A1QA	SKCM	0.680213954127102	regional lymph node	metastatic
+TCGA-D3-A1QA	SKCM	0.680213954127102	regional lymph node	metastatic
+TCGA-D3-A1QA	SKCM	0.663799969754139	regional lymph node	metastatic
+TCGA-D3-A1QA	SKCM	0.663799969754139	regional lymph node	metastatic
+TCGA-D3-A1QB	SKCM	0.397972041813893	regional lymph node	metastatic
+TCGA-D3-A2J6	SKCM	0.444484585055997	regional lymph node	metastatic
+TCGA-D3-A2J7	SKCM	0.399955352893281	regional lymph node	metastatic
+TCGA-D3-A2J8	SKCM	0.532124809839603	regional lymph node	metastatic
+TCGA-D3-A2J9	SKCM	0.455561080171268	regional lymph node	metastatic
+TCGA-D3-A2JA	SKCM	0.514178634661648	RegionalCut_SubCut	metastatic
+TCGA-D3-A2JC	SKCM	0.396664217518054	regional lymph node	metastatic
+TCGA-D3-A2JD	SKCM	0.367950443459364	regional lymph node	metastatic
+TCGA-D3-A2JE	SKCM	0.643415522431976	regional lymph node	metastatic
+TCGA-D3-A2JF	SKCM	0.411274201801657	distant metastasis	metastatic
+TCGA-D3-A2JG	SKCM	0.43509096487224	regional lymph node	metastatic
+TCGA-D3-A2JH	SKCM	0.546429475135072	RegionalCut_SubCut	metastatic
+TCGA-D3-A2JK	SKCM	0.225126505417205	regional lymph node	metastatic
+TCGA-D3-A2JN	SKCM	0.516750910050623	regional lymph node	metastatic
+TCGA-D3-A2JO	SKCM	0.641044129839216	RegionalCut_SubCut	metastatic
+TCGA-D3-A2JP	SKCM	0.488486563440603	regional lymph node	metastatic
+TCGA-D3-A3BZ	SKCM	0.500054135661701	regional lymph node	metastatic
+TCGA-D3-A3C6	SKCM	0.655887542181012	regional lymph node	metastatic
+TCGA-D3-A3C7	SKCM	0.389116053060635	regional lymph node	metastatic
+TCGA-D3-A3C8	SKCM	0.513515037270752	RegionalCut_SubCut	metastatic
+TCGA-D3-A3CC	SKCM	0.391458807472032	RegionalCut_SubCut	metastatic
+TCGA-D3-A3CE	SKCM	0.507041269051011	regional lymph node	metastatic
+TCGA-D3-A3CF	SKCM	0.462011853770493	regional lymph node	metastatic
+TCGA-D3-A3ML	SKCM	0.636122353796821	regional lymph node	metastatic
+TCGA-D3-A3MO	SKCM	0.488720892075593	RegionalCut_SubCut	metastatic
+TCGA-D3-A3MR	SKCM	0.435386590129045	RegionalCut_SubCut	metastatic
+TCGA-D3-A3MU	SKCM	0.487837345367497	regional lymph node	metastatic
+TCGA-D3-A3MV	SKCM	0.544200840945957	RegionalCut_SubCut	metastatic
+TCGA-D3-A51F	SKCM	0.34889552320281	regional lymph node	metastatic
+TCGA-D3-A51H	SKCM	0.490590778171522	regional lymph node	metastatic
+TCGA-D3-A51J	SKCM	0.502432860599009	RegionalCut_SubCut	metastatic
+TCGA-D3-A51K	SKCM	0.686184642669981	regional lymph node	metastatic
+TCGA-D3-A51N	SKCM	0.300438285356921	regional lymph node	metastatic
+TCGA-D3-A51R	SKCM	0.770028658844463	regional lymph node	metastatic
+TCGA-D3-A51T	SKCM	0.527161139998025	regional lymph node	metastatic
+TCGA-D3-A5GL	SKCM	0.598874735561397	regional lymph node	metastatic
+TCGA-D3-A5GN	SKCM	0.592368507771926	regional lymph node	metastatic
+TCGA-D3-A5GO	SKCM	0.493965009139947	distant metastasis	metastatic
+TCGA-D3-A5GR	SKCM	0.453244949365435	regional lymph node	metastatic
+TCGA-D3-A5GS	SKCM	0.326208289618508	regional lymph node	metastatic
+TCGA-D3-A5GT	SKCM	0.572381779913765	primary tumor	primary tumor
+TCGA-D3-A5GU	SKCM	0.561673354751117	regional lymph node	metastatic
+TCGA-D3-A8GB	SKCM	0.302280934258563	regional lymph node	metastatic
+TCGA-D3-A8GC	SKCM	0.473300841362146	regional lymph node	metastatic
+TCGA-D3-A8GD	SKCM	0.505710634453805	regional lymph node	metastatic
+TCGA-D3-A8GE	SKCM	0.168026937032148	RegionalCut_SubCut	metastatic
+TCGA-D3-A8GI	SKCM	0.541465127031439	regional lymph node	metastatic
+TCGA-D3-A8GJ	SKCM	0.441112763979435	distant metastasis	metastatic
+TCGA-D3-A8GK	SKCM	0.563569910532374	distant metastasis	metastatic
+TCGA-D3-A8GL	SKCM	0.663446790039041	RegionalCut_SubCut	metastatic
+TCGA-D3-A8GM	SKCM	0.560081977293353	regional lymph node	metastatic
+TCGA-D3-A8GP	SKCM	0.584368281234003	distant metastasis	metastatic
+TCGA-D3-A8GQ	SKCM	0.565993185727984	distant metastasis	metastatic
+TCGA-D3-A8GS	SKCM	0.543003551541889	distant metastasis	metastatic
+TCGA-D9-A3Z1	SKCM	0.450948044338857	regional lymph node	metastatic
+TCGA-D9-A3Z3	SKCM	0.463789254506769	regional lymph node	metastatic
+TCGA-D9-A3Z4	SKCM	0.472466152159484	primary tumor	primary tumor
+TCGA-D9-A4Z2	SKCM	0.546358273785009	primary tumor	primary tumor
+TCGA-D9-A4Z3	SKCM	0.641259197124614	primary tumor	primary tumor
+TCGA-D9-A4Z6	SKCM	0.517446040565113	regional lymph node	metastatic
+TCGA-D9-A6EC	SKCM	0.476566395181677	regional lymph node	metastatic
+TCGA-D9-A6EG	SKCM	0.485462708596204	RegionalCut_SubCut	metastatic
+TCGA-DA-A1HV	SKCM	0.495722904384603	regional lymph node	metastatic
+TCGA-DA-A1HW	SKCM	0.470886234824798	regional lymph node	metastatic
+TCGA-DA-A1HY	SKCM	0.408391746411569	regional lymph node	metastatic
+TCGA-DA-A1I0	SKCM	0.433984220626387	RegionalCut_SubCut	metastatic
+TCGA-DA-A1I1	SKCM	0.443001843517908	RegionalCut_SubCut	metastatic
+TCGA-DA-A1I2	SKCM	0.489226833549545	regional lymph node	metastatic
+TCGA-DA-A1I4	SKCM	0.377078501807326	RegionalCut_SubCut	metastatic
+TCGA-DA-A1I5	SKCM	0.433590628940915	distant metastasis	metastatic
+TCGA-DA-A1I7	SKCM	0.381692208626081	RegionalCut_SubCut	metastatic
+TCGA-DA-A1I8	SKCM	0.364735180469085	RegionalCut_SubCut	metastatic
+TCGA-DA-A1IA	SKCM	0.413386794969047	distant metastasis	metastatic
+TCGA-DA-A1IB	SKCM	0.389746422076953	regional lymph node	metastatic
+TCGA-DA-A1IC	SKCM	0.576530460064417	RegionalCut_SubCut	metastatic
+TCGA-DA-A3F2	SKCM	0.33468263266823	RegionalCut_SubCut	metastatic
+TCGA-DA-A3F3	SKCM	0.619228779118847	regional lymph node	metastatic
+TCGA-DA-A3F5	SKCM	0.549210733661136	regional lymph node	metastatic
+TCGA-DA-A3F8	SKCM	0.420016648350958	regional lymph node	metastatic
+TCGA-DA-A95V	SKCM	0.313576457095352	regional lymph node	metastatic
+TCGA-DA-A95W	SKCM	0.581552984299265	regional lymph node	metastatic
+TCGA-DA-A95X	SKCM	0.576817089253973	regional lymph node	metastatic
+TCGA-DA-A95Y	SKCM	0.466966264809199	regional lymph node	metastatic
+TCGA-DA-A95Z	SKCM	0.579195428576245	RegionalCut_SubCut	metastatic
+TCGA-DA-A960	SKCM	0.585088747545396	RegionalCut_SubCut	primary tumor
+TCGA-EB-A1NK	SKCM	0.454893489199112	primary tumor	primary tumor
+TCGA-EB-A24D	SKCM	0.515659279165377	primary tumor	primary tumor
+TCGA-EB-A299	SKCM	0.297361583467943	primary tumor	primary tumor
+TCGA-EB-A3HV	SKCM	0.263760561676383	primary tumor	primary tumor
+TCGA-EB-A3XB	SKCM	0.452447841055849	primary tumor	primary tumor
+TCGA-EB-A3XC	SKCM	0.583483379618566	primary tumor	primary tumor
+TCGA-EB-A3XD	SKCM	0.17456350310451	primary tumor	primary tumor
+TCGA-EB-A3XE	SKCM	0.289807289590881	primary tumor	primary tumor
+TCGA-EB-A3XF	SKCM	0.463561721427221	primary tumor	primary tumor
+TCGA-EB-A3Y6	SKCM	0.45370704552097	primary tumor	primary tumor
+TCGA-EB-A3Y7	SKCM	0.455297524827132	primary tumor	primary tumor
+TCGA-EB-A41A	SKCM	0.555602573642216	primary tumor	primary tumor
+TCGA-EB-A41B	SKCM	0.539480171631347	primary tumor	primary tumor
+TCGA-EB-A42Y	SKCM	0.826058980609814	primary tumor	primary tumor
+TCGA-EB-A42Z	SKCM	0.307198921249241	primary tumor	primary tumor
+TCGA-EB-A430	SKCM	0.545617913133336	primary tumor	primary tumor
+TCGA-EB-A431	SKCM	0.522961130201939	primary tumor	primary tumor
+TCGA-EB-A44N	SKCM	0.432065806050838	primary tumor	primary tumor
+TCGA-EB-A44O	SKCM	0.569443563943268	primary tumor	primary tumor
+TCGA-EB-A44P	SKCM	0.433899999716361	primary tumor	primary tumor
+TCGA-EB-A44Q	SKCM	0.507582348381126	regional lymph node	metastatic
+TCGA-EB-A44R	SKCM	0.652686822617246	regional lymph node	metastatic
+TCGA-EB-A4IQ	SKCM	0.443458134429099	primary tumor	primary tumor
+TCGA-EB-A4IS	SKCM	0.483394724701595	primary tumor	primary tumor
+TCGA-EB-A4OY	SKCM	0.638782650465365	primary tumor	primary tumor
+TCGA-EB-A4OZ	SKCM	0.336592781177292	primary tumor	primary tumor
+TCGA-EB-A4P0	SKCM	0.566776064276991	primary tumor	primary tumor
+TCGA-EB-A4XL	SKCM	0.482382404399946	primary tumor	primary tumor
+TCGA-EB-A51B	SKCM	0.588185592767196	primary tumor	primary tumor
+TCGA-EB-A550	SKCM	0.301783000965956	primary tumor	primary tumor
+TCGA-EB-A551	SKCM	0.460945764828552	primary tumor	primary tumor
+TCGA-EB-A553	SKCM	0.518889126811419	primary tumor	primary tumor
+TCGA-EB-A57M	SKCM	0.340902506938423	primary tumor	primary tumor
+TCGA-EB-A5FP	SKCM	0.600569554857866	primary tumor	primary tumor
+TCGA-EB-A5KH	SKCM	0.591178287976782	regional lymph node	metastatic
+TCGA-EB-A5SE	SKCM	0.590630938562382	primary tumor	primary tumor
+TCGA-EB-A5SF	SKCM	0.304663037571642	primary tumor	primary tumor
+TCGA-EB-A5SH	SKCM	0.500374510612852	regional lymph node	metastatic
+TCGA-EB-A5UL	SKCM	0.571898405407582	regional lymph node	metastatic
+TCGA-EB-A5UM	SKCM	0.446771020270688	primary tumor	primary tumor
+TCGA-EB-A5UN	SKCM	0.436425015840811	distant metastasis	metastatic
+TCGA-EB-A5VU	SKCM	0.506045518877929	primary tumor	primary tumor
+TCGA-EB-A5VV	SKCM	0.406109988699167	regional lymph node	metastatic
+TCGA-EB-A6L9	SKCM	0.405976264358333	regional lymph node	metastatic
+TCGA-EB-A6QY	SKCM	0.43622635215	primary tumor	primary tumor
+TCGA-EB-A6QZ	SKCM	0.520103766466726	primary tumor	primary tumor
+TCGA-EB-A6R0	SKCM	0.649853336294146	primary tumor	primary tumor
+TCGA-EB-A82B	SKCM	0.389842030352433	primary tumor	primary tumor
+TCGA-EB-A82C	SKCM	0.580686835538971	primary tumor	primary tumor
+TCGA-EB-A85I	SKCM	0.343344817935226	primary tumor	primary tumor
+TCGA-EB-A85J	SKCM	0.534097005181669	primary tumor	primary tumor
+TCGA-EB-A97M	SKCM	0.456586614053028	primary tumor	primary tumor
+TCGA-EE-A17X	SKCM	0.60865883987468	regional lymph node	metastatic
+TCGA-EE-A17Y	SKCM	0.483411332017327	RegionalCut_SubCut	metastatic
+TCGA-EE-A17Z	SKCM	0.556013066907265	regional lymph node	metastatic
+TCGA-EE-A180	SKCM	0.594317186255943	distant metastasis	metastatic
+TCGA-EE-A181	SKCM	0.568498731122753	regional lymph node	metastatic
+TCGA-EE-A182	SKCM	0.372060622738086	distant metastasis	metastatic
+TCGA-EE-A184	SKCM	0.48029847366646	distant metastasis	metastatic
+TCGA-EE-A185	SKCM	0.511505044379751	regional lymph node	metastatic
+TCGA-EE-A20B	SKCM	0.34306625189944	RegionalCut_SubCut	metastatic
+TCGA-EE-A20F	SKCM	0.469702635966977	regional lymph node	metastatic
+TCGA-EE-A20H	SKCM	0.687414110314618	distant metastasis	metastatic
+TCGA-EE-A20I	SKCM	0.508495883327474	RegionalCut_SubCut	metastatic
+TCGA-EE-A29A	SKCM	0.502235529988287	distant metastasis	metastatic
+TCGA-EE-A29B	SKCM	0.65774818402558	distant metastasis	metastatic
+TCGA-EE-A29C	SKCM	0.48817331226231	regional lymph node	metastatic
+TCGA-EE-A29D	SKCM	0.547080445856812	regional lymph node	metastatic
+TCGA-EE-A29E	SKCM	0.541645715320732	regional lymph node	metastatic
+TCGA-EE-A29G	SKCM	0.34610113032154	RegionalCut_SubCut	metastatic
+TCGA-EE-A29H	SKCM	0.389852061193779	regional lymph node	metastatic
+TCGA-EE-A29L	SKCM	0.615009385093757	regional lymph node	metastatic
+TCGA-EE-A29M	SKCM	0.518372468149866	regional lymph node	metastatic
+TCGA-EE-A29P	SKCM	0.472486534783819	regional lymph node	metastatic
+TCGA-EE-A29Q	SKCM	0.455755597489952	RegionalCut_SubCut	metastatic
+TCGA-EE-A29R	SKCM	0.457915616455817	regional lymph node	metastatic
+TCGA-EE-A29S	SKCM	0.553078354617178	regional lymph node	metastatic
+TCGA-EE-A29V	SKCM	0.512494420991193	distant metastasis	metastatic
+TCGA-EE-A29X	SKCM	0.394320573039225	regional lymph node	metastatic
+TCGA-EE-A2A0	SKCM	0.460352123825104	regional lymph node	metastatic
+TCGA-EE-A2A1	SKCM	0.409824313532536	regional lymph node	metastatic
+TCGA-EE-A2A2	SKCM	0.713629688299826	regional lymph node	metastatic
+TCGA-EE-A2A5	SKCM	0.584573579605251	RegionalCut_SubCut	metastatic
+TCGA-EE-A2A6	SKCM	0.497572867845595	regional lymph node	metastatic
+TCGA-EE-A2GB	SKCM	0.44923050609215	regional lymph node	metastatic
+TCGA-EE-A2GC	SKCM	0.499403419591384	regional lymph node	metastatic
+TCGA-EE-A2GD	SKCM	0.314696914523195	RegionalCut_SubCut	metastatic
+TCGA-EE-A2GE	SKCM	0.324732607988345	regional lymph node	metastatic
+TCGA-EE-A2GH	SKCM	0.457474618373897	regional lymph node	metastatic
+TCGA-EE-A2GI	SKCM	0.549076515377366	regional lymph node	metastatic
+TCGA-EE-A2GJ	SKCM	0.511692843751008	regional lymph node	metastatic
+TCGA-EE-A2GK	SKCM	0.459701816005538	regional lymph node	metastatic
+TCGA-EE-A2GL	SKCM	0.441503219814336	regional lymph node	metastatic
+TCGA-EE-A2GM	SKCM	0.569119721690473	RegionalCut_SubCut	metastatic
+TCGA-EE-A2GN	SKCM	0.435287163698823	RegionalCut_SubCut	metastatic
+TCGA-EE-A2GO	SKCM	0.505289227555751	RegionalCut_SubCut	metastatic
+TCGA-EE-A2GP	SKCM	0.486942073375442	RegionalCut_SubCut	metastatic
+TCGA-EE-A2GR	SKCM	0.614851645101425	RegionalCut_SubCut	metastatic
+TCGA-EE-A2GS	SKCM	0.577963681194928	RegionalCut_SubCut	metastatic
+TCGA-EE-A2GT	SKCM	0.489611699987533	regional lymph node	metastatic
+TCGA-EE-A2GU	SKCM	0.555604715947941	regional lymph node	metastatic
+TCGA-EE-A2M5	SKCM	0.636999452568886	regional lymph node	metastatic
+TCGA-EE-A2M6	SKCM	0.815908052923319	regional lymph node	metastatic
+TCGA-EE-A2M7	SKCM	0.31447825058943	regional lymph node	metastatic
+TCGA-EE-A2M8	SKCM	0.400549159622249	regional lymph node	metastatic
+TCGA-EE-A2MC	SKCM	0.542002773821848	regional lymph node	metastatic
+TCGA-EE-A2MD	SKCM	0.515120371244043	regional lymph node	metastatic
+TCGA-EE-A2ME	SKCM	0.378655819272117	regional lymph node	metastatic
+TCGA-EE-A2MF	SKCM	0.462916158208533	regional lymph node	metastatic
+TCGA-EE-A2MG	SKCM	0.392385378146653	regional lymph node	metastatic
+TCGA-EE-A2MH	SKCM	0.450025027466495	regional lymph node	metastatic
+TCGA-EE-A2MI	SKCM	0.322236399004495	regional lymph node	metastatic
+TCGA-EE-A2MJ	SKCM	0.512492666725731	regional lymph node	metastatic
+TCGA-EE-A2MK	SKCM	0.269939116123664	regional lymph node	metastatic
+TCGA-EE-A2ML	SKCM	0.439155467767434	regional lymph node	metastatic
+TCGA-EE-A2MM	SKCM	0.621836971678198	regional lymph node	metastatic
+TCGA-EE-A2MN	SKCM	0.490934500213115	regional lymph node	metastatic
+TCGA-EE-A2MP	SKCM	0.414312937182523	regional lymph node	metastatic
+TCGA-EE-A2MQ	SKCM	0.474884816951454	regional lymph node	metastatic
+TCGA-EE-A2MR	SKCM	0.475607778846928	regional lymph node	metastatic
+TCGA-EE-A2MS	SKCM	0.670697027675721	regional lymph node	metastatic
+TCGA-EE-A2MT	SKCM	0.52042176790481	regional lymph node	metastatic
+TCGA-EE-A2MU	SKCM	0.429025138552735	RegionalCut_SubCut	metastatic
+TCGA-EE-A3AA	SKCM	0.480207875152709	regional lymph node	metastatic
+TCGA-EE-A3AB	SKCM	0.431798545730375	regional lymph node	metastatic
+TCGA-EE-A3AC	SKCM	0.581433090360891	regional lymph node	metastatic
+TCGA-EE-A3AD	SKCM	0.54519150698295	regional lymph node	metastatic
+TCGA-EE-A3AE	SKCM	0.538064546510869	regional lymph node	metastatic
+TCGA-EE-A3AF	SKCM	0.496959798958605	regional lymph node	metastatic
+TCGA-EE-A3AG	SKCM	0.663822382314244	RegionalCut_SubCut	metastatic
+TCGA-EE-A3AH	SKCM	0.53540903082203	regional lymph node	metastatic
+TCGA-EE-A3J3	SKCM	0.527668843821609	RegionalCut_SubCut	metastatic
+TCGA-EE-A3J4	SKCM	0.569723893945514	RegionalCut_SubCut	metastatic
+TCGA-EE-A3J5	SKCM	0.481097410615868	RegionalCut_SubCut	metastatic
+TCGA-EE-A3J7	SKCM	0.575436901104048	RegionalCut_SubCut	metastatic
+TCGA-EE-A3J8	SKCM	0.584156949644756	RegionalCut_SubCut	metastatic
+TCGA-EE-A3JA	SKCM	0.427892222606484	regional lymph node	metastatic
+TCGA-EE-A3JB	SKCM	0.630566400284394	RegionalCut_SubCut	metastatic
+TCGA-EE-A3JD	SKCM	0.466070519084633	regional lymph node	metastatic
+TCGA-EE-A3JE	SKCM	0.283231265480508	RegionalCut_SubCut	metastatic
+TCGA-EE-A3JH	SKCM	0.374523534631881	regional lymph node	metastatic
+TCGA-EE-A3JI	SKCM	0.564711374682672	regional lymph node	metastatic
+TCGA-ER-A193	SKCM	0.396026237253222	regional lymph node	metastatic
+TCGA-ER-A196	SKCM	0.218958711003603	primary tumor	primary tumor
+TCGA-ER-A199	SKCM	0.528811346788088	regional lymph node	metastatic
+TCGA-ER-A19A	SKCM	0.338492699165919	RegionalCut_SubCut	metastatic
+TCGA-ER-A19C	SKCM	0.451041982424294	regional lymph node	metastatic
+TCGA-ER-A19D	SKCM	0.509401283170917	RegionalCut_SubCut	metastatic
+TCGA-ER-A19E	SKCM	0.660027687062242	regional lymph node	metastatic
+TCGA-ER-A19J	SKCM	0.51374439979852	regional lymph node	metastatic
+TCGA-ER-A19K	SKCM	0.526284166530629	primary tumor	primary tumor
+TCGA-ER-A19M	SKCM	0.596520218678875	regional lymph node	metastatic
+TCGA-ER-A19O	SKCM	0.173307560603059	regional lymph node	metastatic
+TCGA-ER-A19T	SKCM	0.473059055077939	primary tumor	primary tumor
+TCGA-ER-A19T	SKCM	0.473059055077939	primary tumor	primary tumor
+TCGA-ER-A19T	SKCM	0.572953632455227	primary tumor	primary tumor
+TCGA-ER-A19T	SKCM	0.572953632455227	primary tumor	primary tumor
+TCGA-ER-A1A1	SKCM	0.539550378628164	regional lymph node	metastatic
+TCGA-ER-A2NB	SKCM	0.189571066187504	primary tumor	primary tumor
+TCGA-ER-A2NC	SKCM	0.450255891225129	distant metastasis	metastatic
+TCGA-ER-A2ND	SKCM	0.436021643114965	distant metastasis	metastatic
+TCGA-ER-A2NF	SKCM	0.417060529171837	primary tumor	primary tumor
+TCGA-ER-A2NF	SKCM	0.417060529171837	primary tumor	primary tumor
+TCGA-ER-A2NF	SKCM	0.412683738731742	primary tumor	primary tumor
+TCGA-ER-A2NF	SKCM	0.412683738731742	primary tumor	primary tumor
+TCGA-ER-A2NG	SKCM	0.434847062151646	regional lymph node	metastatic
+TCGA-ER-A2NH	SKCM	0.472865902367595	regional lymph node	metastatic
+TCGA-ER-A3ET	SKCM	0.323508884148284	RegionalCut_SubCut	metastatic
+TCGA-ER-A3EV	SKCM	0.495854401535894	distant metastasis	metastatic
+TCGA-ER-A3PL	SKCM	0.428117915728352	RegionalCut_SubCut	metastatic
+TCGA-ER-A42K	SKCM	0.463660695952217	regional lymph node	metastatic
+TCGA-ER-A42L	SKCM	0.339908457675236	distant metastasis	metastatic
+TCGA-FR-A2OS	SKCM	0.484435222386781	primary tumor	primary tumor
+TCGA-FR-A3R1	SKCM	0.57404614774893	primary tumor	primary tumor
+TCGA-FR-A3YN	SKCM	0.397217870970187	regional lymph node	metastatic
+TCGA-FR-A44A	SKCM	0.453403081440146	regional lymph node	metastatic
+TCGA-FR-A69P	SKCM	0.647468758415871	regional lymph node	metastatic
+TCGA-FR-A726	SKCM	0.700030512577608	primary tumor	primary tumor
+TCGA-FR-A728	SKCM	0.48109453022518	primary tumor	primary tumor
+TCGA-FR-A729	SKCM	0.577084942144275	regional lymph node	metastatic
+TCGA-FR-A7U8	SKCM	0.587564845533074	distant metastasis	metastatic
+TCGA-FR-A7U9	SKCM	0.579273390719843	regional lymph node	metastatic
+TCGA-FR-A7UA	SKCM	0.420388981896178	regional lymph node	metastatic
+TCGA-FR-A8YC	SKCM	0.534711759618643	distant metastasis	metastatic
+TCGA-FR-A8YD	SKCM	0.433139984015859	distant metastasis	metastatic
+TCGA-FR-A8YE	SKCM	0.69516632090502	regional lymph node	metastatic
+TCGA-FS-A1YW	SKCM	0.45379842658262	regional lymph node	metastatic
+TCGA-FS-A1YX	SKCM	0.463078540941186	RegionalCut_SubCut	metastatic
+TCGA-FS-A1YY	SKCM	0.439878602664169	distant metastasis	metastatic
+TCGA-FS-A1Z0	SKCM	0.5688621381246	distant metastasis	metastatic
+TCGA-FS-A1Z3	SKCM	0.532187218035133	distant metastasis	metastatic
+TCGA-FS-A1Z4	SKCM	0.542017023792853	regional lymph node	metastatic
+TCGA-FS-A1Z7	SKCM	0.282276565927371	regional lymph node	metastatic
+TCGA-FS-A1ZA	SKCM	0.541948617141293	distant metastasis	metastatic
+TCGA-FS-A1ZB	SKCM	0.375131553336229	distant metastasis	metastatic
+TCGA-FS-A1ZD	SKCM	0.560635355075208	regional lymph node	metastatic
+TCGA-FS-A1ZE	SKCM	0.559831565197022	distant metastasis	metastatic
+TCGA-FS-A1ZF	SKCM	0.707440529034929	distant metastasis	metastatic
+TCGA-FS-A1ZG	SKCM	0.443091518819148	regional lymph node	metastatic
+TCGA-FS-A1ZH	SKCM	0.503509617415101	regional lymph node	metastatic
+TCGA-FS-A1ZJ	SKCM	0.468597561911106	regional lymph node	metastatic
+TCGA-FS-A1ZK	SKCM	0.58822467327431	distant metastasis	metastatic
+TCGA-FS-A1ZM	SKCM	0.398683102998888	RegionalCut_SubCut	metastatic
+TCGA-FS-A1ZN	SKCM	0.429080235422571	primary tumor	primary tumor
+TCGA-FS-A1ZP	SKCM	0.306084089597107	regional lymph node	metastatic
+TCGA-FS-A1ZR	SKCM	0.426988455765918	RegionalCut_SubCut	metastatic
+TCGA-FS-A1ZS	SKCM	0.425896750506312	regional lymph node	metastatic
+TCGA-FS-A1ZT	SKCM	0.585302458306593	distant metastasis	metastatic
+TCGA-FS-A1ZU	SKCM	0.747737958776057	distant metastasis	metastatic
+TCGA-FS-A1ZW	SKCM	0.545533608956351	regional lymph node	metastatic
+TCGA-FS-A1ZY	SKCM	0.478390750409174	distant metastasis	metastatic
+TCGA-FS-A1ZZ	SKCM	0.562795888194434	distant metastasis	metastatic
+TCGA-FS-A4F0	SKCM	0.624570574815304	RegionalCut_SubCut	metastatic
+TCGA-FS-A4F2	SKCM	0.559948754171227	RegionalCut_SubCut	metastatic
+TCGA-FS-A4F4	SKCM	0.453099398688544	RegionalCut_SubCut	metastatic
+TCGA-FS-A4F5	SKCM	0.515843401854963	RegionalCut_SubCut	metastatic
+TCGA-FS-A4F8	SKCM	0.43908350246307	regional lymph node	metastatic
+TCGA-FS-A4F9	SKCM	0.653852151245003	regional lymph node	metastatic
+TCGA-FS-A4FB	SKCM	0.514284751553099	regional lymph node	metastatic
+TCGA-FS-A4FC	SKCM	0.452763893399956	RegionalCut_SubCut	metastatic
+TCGA-FS-A4FD	SKCM	0.721700963396944	regional lymph node	metastatic
+TCGA-FW-A3I3	SKCM	0.606643451606882	distant metastasis	metastatic
+TCGA-FW-A3R5	SKCM	0.627210984419247	regional lymph node	metastatic
+TCGA-FW-A3TV	SKCM	0.43902563029679	regional lymph node	metastatic
+TCGA-FW-A5DX	SKCM	0.822831677861274	primary tumor	primary tumor
+TCGA-FW-A5DY	SKCM	0.48066355085838	regional lymph node	metastatic
+TCGA-GF-A2C7	SKCM	0.423439942162791	primary tumor	primary tumor
+TCGA-GF-A3OT	SKCM	0.494754485182165	regional lymph node	metastatic
+TCGA-GF-A4EO	SKCM	0.448407480733681	regional lymph node	metastatic
+TCGA-GF-A6C8	SKCM	0.521978080263974	regional lymph node	metastatic
+TCGA-GF-A6C9	SKCM	0.497119565653022	distant metastasis	metastatic
+TCGA-GF-A769	SKCM	0.569437955952727	primary tumor	primary tumor
+TCGA-GN-A263	SKCM	0.340477674776405	primary tumor	primary tumor
+TCGA-GN-A267	SKCM	0.635913713428629	regional lymph node	metastatic
+TCGA-GN-A268	SKCM	0.558571947630668	regional lymph node	metastatic
+TCGA-GN-A26A	SKCM	0.393767646354199	RegionalCut_SubCut	metastatic
+TCGA-GN-A26C	SKCM	0.402068174842756	primary tumor	primary tumor
+TCGA-GN-A26D	SKCM	0.42673238313191	regional lymph node	metastatic
+TCGA-GN-A4U3	SKCM	0.559917069065196	distant metastasis	metastatic
+TCGA-GN-A4U4	SKCM	0.606066855272941	regional lymph node	metastatic
+TCGA-GN-A4U5	SKCM	0.367777903772268	primary tumor	primary tumor
+TCGA-GN-A4U7	SKCM	0.556829132601569	regional lymph node	metastatic
+TCGA-GN-A4U9	SKCM	0.813720101524343	regional lymph node	metastatic
+TCGA-GN-A8LK	SKCM	0.613940523280628	distant metastasis	metastatic
+TCGA-GN-A8LL	SKCM	0.373733799087695	regional lymph node	metastatic
+TCGA-GN-A8LN	SKCM	0.361108982817866	primary tumor	primary tumor
+TCGA-GN-A9SD	SKCM	0.407529867711243	regional lymph node	metastatic
+TCGA-HR-A2OH	SKCM	0.477086070856444	distant metastasis	metastatic
+TCGA-IH-A3EA	SKCM	0.63577892116862	primary tumor	primary tumor
+TCGA-QB-A6FS	SKCM	0.469385151915942	regional lymph node	metastatic
+TCGA-QB-AA9O	SKCM	0.52503177621461	regional lymph node	metastatic
+TCGA-RP-A693	SKCM	0.402973759005317	distant metastasis	metastatic
+TCGA-RP-A694	SKCM	0.55209245258312	distant metastasis	metastatic
+TCGA-RP-A695	SKCM	0.525962101987408	distant metastasis	metastatic
+TCGA-W3-A824	SKCM	0.578049421929387	regional lymph node	metastatic
+TCGA-W3-A825	SKCM	0.547755597955601	distant metastasis	metastatic
+TCGA-W3-A828	SKCM	0.385830908057268	distant metastasis	metastatic
+TCGA-W3-AA1O	SKCM	0.709148558677823	regional lymph node	metastatic
+TCGA-W3-AA1Q	SKCM	0.543540663968511	distant metastasis	metastatic
+TCGA-W3-AA1R	SKCM	0.669675778405442	regional lymph node	metastatic
+TCGA-W3-AA1V	SKCM	0.711585195393895	regional lymph node	metastatic
+TCGA-W3-AA1W	SKCM	0.463886901610588	distant metastasis	metastatic
+TCGA-W3-AA21	SKCM	0.572040132270848	regional lymph node	metastatic
+TCGA-WE-A8JZ	SKCM	0.434859762386763	regional lymph node	metastatic
+TCGA-WE-A8K1	SKCM	0.57029465350686	RegionalCut_SubCut	metastatic
+TCGA-WE-A8K4	SKCM	0.373554096823686	primary tumor	primary tumor
+TCGA-WE-A8K5	SKCM	0.643927915075707	RegionalCut_SubCut	metastatic
+TCGA-WE-A8K6	SKCM	0.402209685858621	regional lymph node	metastatic
+TCGA-WE-A8ZM	SKCM	0.387564874959501	RegionalCut_SubCut	metastatic
+TCGA-WE-A8ZN	SKCM	0.49031509576008	RegionalCut_SubCut	metastatic
+TCGA-WE-A8ZO	SKCM	0.553779452867876	regional lymph node	metastatic
+TCGA-WE-A8ZQ	SKCM	0.578952934118529	regional lymph node	metastatic
+TCGA-WE-A8ZR	SKCM	0.45787067168988	regional lymph node	metastatic
+TCGA-WE-A8ZT	SKCM	0.402734009124193	regional lymph node	metastatic
+TCGA-WE-A8ZX	SKCM	0.731694811567962	regional lymph node	metastatic
+TCGA-WE-A8ZY	SKCM	0.531248504124865	RegionalCut_SubCut	metastatic
+TCGA-WE-AA9Y	SKCM	0.336447282239048	regional lymph node	metastatic
+TCGA-WE-AAA0	SKCM	0.508411371387258	regional lymph node	metastatic
+TCGA-WE-AAA3	SKCM	0.323763629361148	regional lymph node	metastatic
+TCGA-WE-AAA4	SKCM	0.313278594948005	RegionalCut_SubCut	metastatic
+TCGA-XV-A9VZ	SKCM	0.433752527431599	primary tumor	primary tumor
+TCGA-XV-A9W2	SKCM	0.464093077114552	primary tumor	primary tumor
+TCGA-XV-AAZV	SKCM	0.319478148033601	primary tumor	primary tumor
+TCGA-XV-AAZW	SKCM	0.521212952132725	primary tumor	primary tumor
+TCGA-XV-AAZY	SKCM	0.482055070593027	primary tumor	primary tumor
+TCGA-XV-AB01	SKCM	0.506993922477472	regional lymph node	metastatic
+TCGA-YD-A89C	SKCM	0.692549707871428	distant metastasis	metastatic
+TCGA-YG-AA3N	SKCM	0.435939334111782	primary tumor	primary tumor
+TCGA-YG-AA3P	SKCM	0.578028953612805	distant metastasis	metastatic
+TCGA-Z2-A8RT	SKCM	0.535748938750997	RegionalCut_SubCut	metastatic
+TCGA-Z2-AA3S	SKCM	0.621161955393535	regional lymph node	metastatic
+TCGA-Z2-AA3V	SKCM	0.363757131400279	regional lymph node	metastatic
