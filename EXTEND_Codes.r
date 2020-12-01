@@ -22,37 +22,19 @@ source("https://gist.githubusercontent.com/benmarwick/2a1bb0133ff568cbe28d/raw/f
 
 
 GSCData = read.table('GSC_Data_Fig1a.txt',sep='\t',head=T)   ### Data Figure 1a
-TelomeraseScores_LungAll = read.table('NSLC_Data_Fig1b.txt',sep='\t',head=T)   ### Data Figure 1b
-TelomeraseScores_BCL_TERT = read.table('BCL_Data_Fig1c.txt',sep='\t',head=T)  ### Data Figure 1c
+TelomeraseScores_BCL_TERT = read.table('BCL_Data_Fig1c.txt',sep='\t',head=T)  ### Data Figure 1b
+TelomeraseScores_LungAll = read.table('NSLC_Data_Fig1b.txt',sep='\t',head=T)   ### Data Figure 1c
 Liposarcomas_WithNormals2 = read.table('Liposarcomas_Data_Fig1d.txt',sep='\t',head=T)  ### Data Figure 1d
 NBM_Final = read.table('NBM_Data_Fig1e.txt',sep='\t',head=T)   ### Data Figure 1e
-GSE81507_Scores = read.table('GSE81507_Data_Fig1f.txt',sep='\t',head=T)  ### Data Figure 1f
-GSE81507df2 <- data_summary(GSE81507_Scores, varname="Scores", groupnames=c("Samples", "Labels"))
-GSE81507df1 = GSE81507df2[c(1,4,7,10),]
-GSE81507df3 = GSE81507df2[c(2,5,8,11),]
-GSE81507df4 = GSE81507df2[c(3,6,9,12),]
 
 my_comparisons1 = list(c("ALT CellLine","Telomerase CellLine"),c("ALT CellLine","ALT Liposarcoma"),c("ALT Liposarcoma","Telomerase Liposarcoma"),c("Telomerase CellLine","Telomerase Liposarcoma"))
-
-
-data_summary <- function(data, varname, groupnames){
-  require(plyr)
-  summary_func <- function(x, col){
-    c(mean = mean(x[[col]], na.rm=TRUE),
-      sd = sd(x[[col]], na.rm=TRUE))
-  }
-  data_sum<-ddply(data, groupnames, .fun=summary_func,
-                  varname)
-  data_sum <- rename(data_sum, c("mean" = varname))
- return(data_sum)
-}
 
 
 pdf('Figure1_Allparts.pdf')
 
 ########### Figure 1 Part a #############
 
-P1 = ggscatter(GSCData, x = "RTA", y = "UpNormRankSum",color = "red",size = 1.3,label = 'Samples',font.label=c(5,"black"),repel=TRUE,
+P1 = ggscatter(GSCData, x = "RTA", y = "EXTENDScores",color = "red",size = 1.3,label = 'Samples',font.label=c(5,"black"),repel=TRUE,
 add = "reg.line",  # Add regressin line
 add.params = list(color = "black", fill = "grey",size=0.5), # Customize reg. line
 conf.int = TRUE # Add confidence interval
@@ -61,7 +43,7 @@ conf.int = TRUE # Add confidence interval
 
 ########### Figure 1 Part b #############
 
-P2 = ggscatter(TelomeraseScores_BCL_TERT, x = "log2_TEA_S6", y = "UpNormRankSum",color = "red",size = 1.3,label = 'cellline',font.label=c(5,"black"),repel=TRUE,
+P2 = ggscatter(TelomeraseScores_BCL_TERT, x = "TelomeraseAssay", y = "EXTENDScores",color = "red",size = 1.3,label = 'cellline',font.label=c(5,"black"),repel=TRUE,
 add = "reg.line",  # Add regressin line
 add.params = list(color = "black", fill = "grey",size=0.5), # Customize reg. line
 conf.int = TRUE,conf.int.level = 0.65 # Add confidence interval
@@ -70,29 +52,19 @@ conf.int = TRUE,conf.int.level = 0.65 # Add confidence interval
 
 ########### Figure 1 Part c #############
 
-P3 = ggscatter(TelomeraseScores_LungAll, x = "Telomerase", y = "UpNormRankSum",color = "red",size = 1.3,label = 'celltype',font.label=c(5,"black"),repel=TRUE,
+P3 = ggscatter(TelomeraseScores_LungAll, x = "Telomerase", y = "EXTENDScores",color = "red",size = 1.3,label = 'celltype',font.label=c(5,"black"),repel=TRUE,
 add = "reg.line",  # Add regressin line
 add.params = list(color = "black", fill = "grey",size=0.5), # Customize reg. line
 conf.int = TRUE # Add confidence interval
 )
 
 
-########### Figure 1 Part d #############
+########### Figure 1 Part d and e #############
 
-P4 = ggboxplot(Liposarcomas_WithNormals2,x="Mechanism",y="UpNormRankSum",size =  0.2, width = 0.5,outlier.shape=NA,color = "Mechanism", add = "jitter",add.params= list(size=0.5),legend="none",order = c("ALT CellLine","Telomerase CellLine","ALT Liposarcoma","Telomerase Liposarcoma"))+ theme(axis.text.x=element_text(angle=30,size=8,vjust=1,hjust=1))+
+P4 = ggboxplot(Liposarcomas_WithNormals2,x="Mechanism",y="EXTENDScores",size =  0.2, width = 0.5,outlier.shape=NA,color = "Mechanism", add = "jitter",add.params= list(size=0.5),legend="none",order = c("ALT CellLine","Telomerase CellLine","ALT Liposarcoma","Telomerase Liposarcoma"))+ theme(axis.text.x=element_text(angle=30,size=8,vjust=1,hjust=1))+
 		   stat_compare_means(comparisons = my_comparisons1, method= "t.test",size=1.5)
 
-P5 = ggboxplot(NBM_Final, x = "Mechanism", y = "UpNormRankSum",size =  0.2, width = 0.5,outlier.shape=NA,color="Mechanism",add = "jitter",add.params= list(size=0.2),order = c("NO_TMM","ALT","MYCN_Amp","TERT_High","TERT_Rearrangement"))+ theme(axis.text.x=element_text(angle=30,size=5,vjust=1,hjust=1),legend.position= "none")+guides(size = FALSE)
-
-
-########### Figure 1 Part e #############
-		   
-		   
-P6 = ggplot(GSE81507df4, aes(x=Samples,y=Scores,fill=Labels))
-P6 = P6+ geom_bar(stat="identity", color="black",position=position_dodge(),width=0.6,fill="pink")+geom_errorbar(aes(ymin=Scores, ymax=Scores+sd), width=.2,
-                 position=position_dodge(.9))
-P6 <- P6 + labs(y = "EXTEND Scores",x = "Samples",fill="Labels")+theme_classic()+theme(axis.text.x=element_text(angle=30,size=8,vjust=1,hjust=1),legend.key.size= unit(0.5,"cm"),legend.key.width = unit(0.3,"cm"),legend.position = "none")
-
+P5 = ggboxplot(NBM_Final, x = "Mechanism", y = "EXTENDScores",size =  0.2, width = 0.5,outlier.shape=NA,color="Mechanism",add = "jitter",add.params= list(size=0.2),order = c("NO_TMM","ALT","MYCN_Amp","TERT_High","TERT_Rearrangement"))+ theme(axis.text.x=element_text(angle=30,size=5,vjust=1,hjust=1),legend.position= "none")+guides(size = FALSE)
 
 
 grid.newpage()
@@ -109,11 +81,7 @@ print(ggpar(P2,font.xtickslab =6,font.ytickslab =6,font.x = 7,font.y=7,ylab="EXT
 print(ggpar(P3,font.xtickslab =6,font.ytickslab =6,font.x = 7,font.y=7,ylab="EXTEND Scores",xlab="Telomerase(ddTRAP)",title="c",font.title=8,subtitle="Rho = 0.65; P = 0.008",font.subtitle=6),vp = define_region(row = 2, col = 1:2))
 print(ggpar(P4,font.xtickslab =6,font.ytickslab =6,font.x = 7,font.y=7,ylab="EXTEND Scores",xlab="Groups",title="d",font.title=8),vp = define_region(row = 2, col = 4:5))
 print(ggpar(P5,font.xtickslab =6,font.ytickslab =6,font.x = 7,font.y=7,ylab="EXTEND Scores",xlab="TMM Mechanism",title="e",font.title=8),vp = define_region(row = 3, col = 1:2))
-print(ggpar(P6,font.xtickslab =6,font.ytickslab =6,font.x = 7,font.y=7,ylab="EXTEND Scores",title="f",font.title=8),vp = define_region(row = 3, col = 4:5))
 dev.off()
-
-
-
 
 
 
@@ -152,12 +120,14 @@ dev.off()
 
 
 
-Heart = read.table('HeartDevelop_Fig2b.txt',sep='\t',head=T)  #### Figure 2b DATA 
-Liver = read.table('LiverDevelop_Fig2c.txt',sep='\t',head=T)  #### Figure 2c DATA 
+
 
 
 #### Figure 2 Parts b and c ##############
 
+
+Heart = read.table('HeartDevelop_Fig2b.txt',sep='\t',head=T)  #### Figure 2b DATA 
+Liver = read.table('LiverDevelop_Fig2c.txt',sep='\t',head=T)  #### Figure 2c DATA 
 
 pdf('Figure2b_c.pdf',onefile=FALSE)
 
@@ -206,6 +176,56 @@ dev.off()
 
 
 
+
+
+
+########### Figure 2 Part d #############
+
+
+GSE81507_Scores = read.table('GSE81507_Data_Fig1f.txt',sep='\t',head=T)  ### Data Figure 1f
+GSE81507df2 <- data_summary(GSE81507_Scores, varname="Scores", groupnames=c("Samples", "Labels"))
+GSE81507df1 = GSE81507df2[c(1,4,7,10),]
+GSE81507df3 = GSE81507df2[c(2,5,8,11),]
+GSE81507df4 = GSE81507df2[c(3,6,9,12),]
+
+
+	
+data_summary <- function(data, varname, groupnames){
+  require(plyr)
+  summary_func <- function(x, col){
+    c(mean = mean(x[[col]], na.rm=TRUE),
+      sd = sd(x[[col]], na.rm=TRUE))
+  }
+  data_sum<-ddply(data, groupnames, .fun=summary_func,
+                  varname)
+  data_sum <- rename(data_sum, c("mean" = varname))
+ return(data_sum)
+}
+
+pdf('Figure2d.pdf')   
+		   
+P6 = ggplot(GSE81507df4, aes(x=Samples,y=Scores,fill=Labels))
+P6 = P6+ geom_bar(stat="identity", color="black",position=position_dodge(),width=0.6,fill="pink")+geom_errorbar(aes(ymin=Scores, ymax=Scores+sd), width=.2,
+                 position=position_dodge(.9))
+P6 <- P6 + labs(y = "EXTEND Scores",x = "Samples",fill="Labels")+theme_classic()+theme(axis.text.x=element_text(angle=30,size=8,vjust=1,hjust=1),legend.key.size= unit(0.5,"cm"),legend.key.width = unit(0.3,"cm"),legend.position = "none")
+
+grid.newpage()
+# Create layout : nrow = 3, ncol = 3
+pushViewport(viewport(layout = grid.layout(nrow = 3, ncol = 5)))
+# A helper function to define a region on the layout
+define_region <- function(row, col){
+  viewport(layout.pos.row = row, layout.pos.col = col)
+} 
+
+
+
+print(ggpar(P6,font.xtickslab =5,font.ytickslab =6,font.x = 9,font.y=9),vp = define_region(row = 1, col = 1:4))
+
+dev.off()
+
+
+
+
 ##################################   FIGURE 3 ######################################################################################################################################################################
 
 
@@ -213,43 +233,9 @@ dev.off()
 
 Pancan_TumorNormal = read.table('TCGA_Data_Figure3a.txt',sep='\t',head=T)    #### Figure 3a DATA #######
 
-
-Signature_All = Pancan_TumorNormal
-
-gps = c('TERT expr','ATRX/DAXX alt','Normal')
-Signature_All = Signature_All[which(Signature_All$Groups %in% gps),]
-
-cancersRemove = c('BLCA','BRCA','CHOL','GBM','HNSC','KIRP','PCPG','STAD','THCA')
-cancerR2 = c('GBM','PCPG','SKCM')
-
-DataRed = Signature_All[-which(Signature_All$Cancer %in%cancersRemove & Signature_All$Groups=="ATRX/DAXX alt"),]
-DataRed = DataRed[-which(DataRed$Cancer %in%cancerR2 & DataRed$Groups=="Normal"),]
-DataRed = DataRed[-which(DataRed$Cancer =="DLBC"),]
-DataRed = DataRed[-which(DataRed$Cancer =="CESC"),]
-
-
-Cancer_T1 = c('ACC','KICH','KIRC','LGG','LIHC','LUAD','LUSC','PAAD','PRAD','SARC','SKCM')
-DataRed2 = DataRed[which(DataRed$Cancer %in% Cancer_T1),]
-DataRed3 = DataRed[-which(DataRed$Cancer %in% Cancer_T1),]
-
-C4 = c('UVM','UCS','TGCT','PCPG','OV','GBM','CHOL','LAML','THYM')
-DataRed3 = DataRed3[-which(DataRed3$Cancer %in% C4),]
-
-DataAll = rbind(DataRed2,DataRed3)
-
-
-
-remove = c('ACC','LGG','SARC','SKCM')
-DataAll2 =DataAll[-which(DataAll$Cancer %in% remove),]
-DataAll2 =DataAll2[-which(DataAll2$Cancer == "KIRC" & DataAll2$Groups == "ATRX/DAXX alt"),]
-DataAll2 =DataAll2[-which(DataAll2$Cancer == "LUAD" & DataAll2$Groups == "ATRX/DAXX alt"),]
-DataAll2 =DataAll2[-which(DataAll2$Cancer == "PAAD" & DataAll2$Groups == "ATRX/DAXX alt"),]
-
-
-
 pdf('Figure3a.pdf',onefile=FALSE)
 
-P = ggviolin(DataAll2,x="Cancer",y="UpNormRankSum",size =  0.1, width = 1.5,draw_quantiles=c(0.5),outlier.shape=NA,color = "black",fill="Groups",palette =c("lightblue","pink"),
+P = ggviolin(Pancan_TumorNormal,x="Cancer",y="EXTENDScores",size =  0.1, width = 1.5,draw_quantiles=c(0.5),outlier.shape=NA,color = "black",fill="Groups",palette =c("lightblue","pink"),
 order = c('PAAD','KIRC','THCA','PRAD','KIRP','LUAD','KICH','LIHC','BRCA','HNSC','LUSC','STAD','UCEC','ESCA','CRC','BLCA'))+theme_classic()+theme(axis.text.x=element_text(angle=50,size=7,vjust=0.5),legend.position = "top",legend.key.size= unit(0.3,"cm"),legend.key.width = unit(0.3,"cm"),legend.title = element_text(size=7),legend.text =element_text(size=6))
 
 
